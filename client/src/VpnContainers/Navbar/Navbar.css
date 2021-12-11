@@ -1,0 +1,17 @@
+.nav-item-button{
+    margin-left: 20px;
+    color: red;
+    border-radius: 50px;
+    border: 1px solid red;
+    padding: 6px 40px 6px 40px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
+.nav-item-button:hover{
+    color: white;
+    background-color: red;
+}
+.sign-in{
+    margin-left: 50px;
+}

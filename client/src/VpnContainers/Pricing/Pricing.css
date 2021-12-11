@@ -1,0 +1,49 @@
+.rounded-lg {
+    border-radius: 1rem !important;
+  }
+  
+  .text-small {
+    font-size: 0.9rem !important;
+  }
+  
+  .custom-separator {
+    width: 5rem;
+    height: 6px;
+    border-radius: 1rem;
+  }
+  
+  .text-uppercase {
+    letter-spacing: 0.2em;
+  }
+
+  .free-price{
+      text-decoration: none;
+      font-size: 20px;
+  }
+  .btn{
+      padding: 5px 20px 5px 20px;
+  }
+  .card{
+      height: 600px;
+  }
+  .danger-btn{
+    margin-left: 20px;
+    color: red;
+    border-radius: 50px;
+    border: 1px solid red;
+    padding: 6px 40px 6px 40px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+  }
+  .danger-btn:hover{
+    color: white;
+    background-color: red;
+  }
+  .activate{
+    border: 2px solid red;
+    height: 600px;
+  }
+  .border{
+    height: 600px;
+  }

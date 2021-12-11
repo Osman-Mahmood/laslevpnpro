@@ -1,0 +1,274 @@
+ .row {
+  width: 100%;
+  overflow: hidden;
+  border: none;
+}
+.testimonial-section {
+  padding: 80px 0 80px;
+  /* background-image: url("../../../src/assets/Testimonial/bg-1.jpg"); */
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: -1;
+  overflow: hidden;
+  height: 400px;
+}
+
+.footer-image {
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-top: -110px;
+}
+.footer-image img {
+  max-width: 100%;
+  height: 130px;
+}
+
+.testimonial-section .testi-item {
+  background-color: white;
+  padding: 30px;
+  border-radius: 50px 50px 50px 0px;
+}
+
+.testimonial-section .testi-item p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  font-style: italic;
+}
+.testimonial-section .testi-item p .fa-quote-left {
+  margin-right: 5px;
+  color: tomato;
+}
+.testimonial-section .testi-item p .fa-quote-right {
+  margin-left: 5px;
+  color: tomato;
+}
+
+.testimonial-section .testi-comment .stars {
+  margin: 0 0 20px;
+}
+.testimonial-section .testi-comment .stars li {
+  /* display: inline-block; */
+  margin: 0 1px;
+}
+.testimonial-section .testi-comment .stars li i {
+  font-size: 13px;
+  color: tomato;
+}
+.testimonial-section .client-info {
+  position: relative;
+  /* padding-left: 80px; */
+  padding-top: 5px;
+  min-height: 60px;
+}
+.testimonial-section .client-info img {
+  height: 50px;
+  width: 50px;
+  border: 2px solid transparent;
+  border-color: black;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  position: absolute;
+}
+.testimonial-section .client-info h5 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  margin: 0 0 2px;
+}
+.testimonial-section .client-info p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin: 0;
+}
+.testimonial-section .client-info h5 span {
+  margin-left: 30px;
+}
+.testimonial-section .client-info p span {
+  margin-left: -70px;
+}
+
+.radio .checkround-radio::after {
+  left: 2px;
+  top: 2px;
+  width: 20px;
+  height: 12px;
+  border-radius: 30%;
+  background: #f8204f;
+}
+
+.radio {
+  /* display: block; */
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkround {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border-color: #f8204f;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio input:checked ~ .checkround {
+  background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkround:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio input:checked ~ .checkround:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio .checkround:after {
+  left: 2px;
+  top: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #f8204f;
+}
+
+/* The check */
+.check {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  padding-right: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #fff;
+  border-color: #f8204f;
+  border-style: solid;
+  border-width: 2px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check input:checked ~ .checkmark {
+  background-color: #fff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.check .checkmark:after {
+  left: 5px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  border: solid;
+  border-color: #f8204f;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.cust-btn {
+  margin-bottom: 10px;
+  background-color: #f8204f;
+  border-width: 2px;
+  border-color: #f8204f;
+  color: #fff;
+}
+.cust-btn:hover {
+  border-color: #f8204f;
+  background-color: #fff;
+  color: #f8204f;
+  border-radius: 20px;
+  transform-style: 2s;
+}
+.right-arrow {
+  float: right;
+  /* padding: 5px 10px 8px 10px; */
+  /* border-radius: 50%; */
+  display: flex;
+  margin-right: 50px;
+}
+
+.far {
+  color: red;
+  float: right;
+  margin-right: 10px;
+  /* width: 20%; */
+  /* padding: 15px 18px 15px 18px; */
+  border-radius: 50%;
+  font-size: 50px;
+}
+.far:hover {
+  color: #fff;
+  background-color: red;
+}
+.left-arrow {
+  color: red;
+  background-color: white;
+}
